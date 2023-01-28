@@ -1,0 +1,8 @@
+.lead {
+  width: 984px;
+  min-height: 1005px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
