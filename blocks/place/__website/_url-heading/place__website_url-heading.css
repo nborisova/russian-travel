@@ -1,5 +1,4 @@
 .place__website_url-heading {
-  width: 456px;
   min-height: 12px;
   font-style: normal;
   font-weight: 400;
@@ -7,6 +6,6 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
-  margin: 0;
+  margin: 0 0 12px;
   padding: 0;
 }
