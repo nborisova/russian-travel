@@ -16,3 +16,17 @@
 .place__paragraph:nth-child(2) {
   margin-top: 26px;
 }
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 352px;
+  }
+}
+

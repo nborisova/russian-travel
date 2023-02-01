@@ -1,8 +1,20 @@
 .lead {
   width: 984px;
-  min-height: 1005px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+@media(min-width: 1024px) and (max-width: 1280px) {
+  .lead {
+    width: calc(928 * 100vw / 1024);
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
+}
+
