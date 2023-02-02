@@ -9,3 +9,9 @@
   line-height: 163%;
   color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}

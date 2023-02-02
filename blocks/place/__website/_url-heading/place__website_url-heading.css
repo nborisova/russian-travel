@@ -9,3 +9,9 @@
   margin: 0 0 12px;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .place__website_url-heading {
+    margin-top: 32px;
+  }
+}

@@ -12,3 +12,10 @@
     width: calc(100% - 48px);
   }
 }
+
+@media(max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    margin: 97px auto 24px;
+  }
+}
