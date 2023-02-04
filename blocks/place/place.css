@@ -5,6 +5,7 @@
   "image description";
   grid-template-columns: 460px 1fr;
   margin-bottom: 80px;
+  column-gap: 40px;
 }
 
 .place:last-child {

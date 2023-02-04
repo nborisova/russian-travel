@@ -9,6 +9,13 @@
   padding: 0;
 }
 
+@media(max-width: 1023px) {
+  .footer__copyright {
+    max-width: 186px;
+    width: 100%;
+  }
+}
+
 @media(max-width: 767px) {
   .footer__copyright {
     margin-top: 48px;

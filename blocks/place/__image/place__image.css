@@ -1,24 +1,11 @@
 .place__image {
   grid-area: image;
-  width: calc(100% - 40px);
+  width: 100%;
   margin: 48px 0 0 0;
-}
-
-@media (max-width: 1279px) {
-  .place__image {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1023px) {
-  .place__image {
-    width: calc(100% - 28px);
-  }
 }
 
 @media (max-width: 767px) {
   .place__image {
-    width: 100%;
     margin: 32px 0 0;
   }
 }
