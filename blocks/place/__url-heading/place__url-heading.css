@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__url-heading {
   min-height: 12px;
   font-style: normal;
   font-weight: 400;
@@ -10,8 +10,8 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  .place__website_url-heading {
+@media (max-width: 767px) {
+  .place__url-heading {
     margin-top: 32px;
   }
 }

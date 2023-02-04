@@ -1,0 +1,14 @@
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover__link:hover .cover__title {
+  opacity: 0.8;
+}
+
+.cover__link:hover .cover__subtitle {
+  opacity: 0.8;
+}

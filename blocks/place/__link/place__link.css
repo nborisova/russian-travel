@@ -1,6 +1,4 @@
-.place__website_link {
-  /* width: 456px; */
-  height: 22px;
+.place__link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,6 +8,6 @@
   margin-top: 12px;
 }
 
-.place__website_link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

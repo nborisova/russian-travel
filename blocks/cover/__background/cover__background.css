@@ -1,6 +1,7 @@
 .cover__background {
- object-fit: cover;
- width: 100%;
- position: absolute;
- z-index: -3;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  max-width: 1184px;
+  width: 100%;
+  z-index: 1;
 }

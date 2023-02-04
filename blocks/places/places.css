@@ -3,26 +3,26 @@
   flex-direction: column;
   width: 100%;
   max-width: 984px;
-  /* min-height: 3392px; */
   margin: 92px auto 0;
+  align-items: center;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (max-width: 1279px) {
   .places {
-    margin: 92px auto 0;
     max-width: calc(440px + 32px + 456px);
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1023px) {
   .places {
     margin: 88px auto 0;
     max-width: calc(100vw - 48px);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .places {
     margin: 64px auto 0;
+    max-width: 100%;
   }
 }
