@@ -1,28 +1,12 @@
 .cover {
   max-width: 1184px;
   aspect-ratio: 1184 / 740;
-  margin: 92px 48px 0;
-  position: relative;
-  z-index: 0;
-}
-
-.cover::before {
-  content: " ";
-  position: absolute;
   width: 100%;
-  height: 100%;
-  opacity: 0.3;
-  background-color: #2A2C2F;
-  z-index: 2;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
 }
 
 @media (max-width: 1279px) {
   .cover {
-    margin: 92px 0 0;
+    margin: 92px auto 0;
   }
 }
 
