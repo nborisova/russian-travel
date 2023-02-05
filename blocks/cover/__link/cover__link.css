@@ -1,4 +1,5 @@
 .cover__link {
+  aspect-ratio: 1184 / 740;
   text-decoration: none;
   display: flex;
   flex-direction: column;

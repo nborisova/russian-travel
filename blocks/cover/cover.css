@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
-  aspect-ratio: 1184 / 740;
   width: 100%;
+  margin: 92px auto 0;
 }
 
 @media (max-width: 1279px) {
@@ -12,7 +12,7 @@
 
 @media (max-width: 1023px) {
   .cover {
-    margin: 90px 0 0;
+    margin: 90px auto 0;
   }
 }
 
