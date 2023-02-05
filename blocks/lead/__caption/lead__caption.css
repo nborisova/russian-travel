@@ -28,6 +28,5 @@
 @media (max-width: 767px) {
   .lead__caption {
     width: calc(100vw - 32px);
-    padding: 0 16px 0;
   }
 }
